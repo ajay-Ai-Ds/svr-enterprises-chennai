@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="brassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C9A66B"/>
+      <stop offset="50%" stop-color="#B08D57"/>
+      <stop offset="100%" stop-color="#8F6F3F"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Shield Crest Outer Ring -->
+  <circle cx="100" cy="100" r="92" fill="#2C2C2C" stroke="url(#brassGrad)" stroke-width="4"/>
+  <circle cx="100" cy="100" r="84" fill="none" stroke="#FAF9F6" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <circle cx="100" cy="100" r="80" fill="none" stroke="url(#brassGrad)" stroke-width="1"/>
+
+  <!-- Decorative Classic Star & Flourish -->
+  <path d="M100,28 L103,37 L112,37 L105,42 L107,51 L100,46 L93,51 L95,42 L88,37 L97,37 Z" fill="url(#brassGrad)"/>
+
+  <!-- Central Interlocking SVR Monogram -->
+  <g text-anchor="middle" font-family="'Playfair Display', 'Georgia', serif" font-weight="700">
+    <!-- Shadow for depth -->
+    <text x="101" y="121" font-size="54" fill="#1A1A1A" letter-spacing="-2">SVR</text>
+    <!-- Main Brass Monogram -->
+    <text x="100" y="120" font-size="54" fill="url(#brassGrad)" letter-spacing="-2">SVR</text>
+  </g>
+
+  <!-- Established Text Banner -->
+  <path d="M50,140 Q100,152 150,140" fill="none" stroke="url(#brassGrad)" stroke-width="1"/>
+  <text x="100" y="160" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#FAF9F6" text-anchor="middle" letter-spacing="3">EST. CHENNAI</text>
+</svg>

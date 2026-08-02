@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 80" width="420" height="80">
+  <defs>
+    <linearGradient id="brassGradNav" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C9A66B"/>
+      <stop offset="50%" stop-color="#B08D57"/>
+      <stop offset="100%" stop-color="#8F6F3F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Monogram Crest Icon (Left) -->
+  <g transform="translate(10, 5)">
+    <circle cx="35" cy="35" r="34" fill="#2C2C2C" stroke="url(#brassGradNav)" stroke-width="2.5"/>
+    <circle cx="35" cy="35" r="30" fill="none" stroke="#FAF9F6" stroke-width="0.8" stroke-dasharray="2,2"/>
+    <text x="35" y="44" font-family="'Playfair Display', 'Georgia', serif" font-weight="700" font-size="22" fill="url(#brassGradNav)" text-anchor="middle" letter-spacing="-1">SVR</text>
+  </g>
+
+  <!-- Brand Name Typography (Right) -->
+  <g transform="translate(90, 0)">
+    <!-- Primary Heading -->
+    <text x="0" y="40" font-family="'Playfair Display', 'Georgia', serif" font-weight="700" font-size="28" fill="#2C2C2C" letter-spacing="0.5">
+      SVR <tspan fill="url(#brassGradNav)" font-family="'Inter', sans-serif" font-weight="600" font-size="24">ENTERPRISES</tspan>
+    </text>
+    
+    <!-- Tagline subtext -->
+    <text x="0" y="58" font-family="'Inter', sans-serif" font-weight="500" font-size="11" fill="#6B6B6B" letter-spacing="2">
+      SAFETY NETS &amp; INVISIBLE GRILLS
+    </text>
+  </g>
+</svg>

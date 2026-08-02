@@ -1,0 +1,85 @@
+import type { Metadata } from "next";
+import { Playfair_Display, Inter } from "next/font/google";
+import "./globals.css";
+import { siteConfig } from "@/data/siteConfig";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import FloatingCTA from "@/components/FloatingCTA";
+import MobileStickyBar from "@/components/MobileStickyBar";
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+  display: "swap",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  metadataBase: new URL(`https://${siteConfig.domain}`),
+  title: {
+    default: `${siteConfig.businessName} | Safety Nets & Invisible Grills Chennai`,
+    template: `%s | ${siteConfig.businessName} Chennai`,
+  },
+  description: `${siteConfig.businessName} provides premium balcony safety nets, pigeon control netting, child/pet protection nets, SS 316 marine-grade invisible grills, and cloth drying hangers across Chennai. Headquarters in ${siteConfig.area}, Chennai. Call ${siteConfig.phone}.`,
+  keywords: [
+    'Safety Nets Chennai',
+    'Invisible Grills Chennai',
+    'Balcony Safety Nets Choolaimedu',
+    'Pigeon Safety Nets Chennai',
+    'Pet Safety Nets Chennai',
+    'SS 316 Invisible Grills',
+    'Cloth Drying Hangers Chennai',
+    'SVR Enterprises',
+  ],
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: `${siteConfig.businessName} | Safety Nets & Invisible Grills Chennai`,
+    description: `Certified balcony safety nets, invisible grills & cloth hangers in Chennai. Doorstep site visit within 24h. Call ${siteConfig.phone}.`,
+    url: `https://${siteConfig.domain}`,
+    siteName: siteConfig.businessName,
+    images: [
+      {
+        url: '/images/hero/hero-1-balcony-safety-net.jpg',
+        width: 1200,
+        height: 630,
+        alt: `${siteConfig.businessName} Balcony Safety Net Installation Chennai`,
+      },
+    ],
+    locale: 'en_IN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${siteConfig.businessName} | Safety Nets & Invisible Grills Chennai`,
+    description: `Certified balcony safety nets, invisible grills & cloth hangers in Chennai. Call ${siteConfig.phone}.`,
+    images: ['/images/hero/hero-1-balcony-safety-net.jpg'],
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html
+      lang="en"
+      className={`${playfair.variable} ${inter.variable} h-full antialiased`}
+    >
+      <body className="min-h-full flex flex-col bg-background text-text-main font-sans pb-16 md:pb-0">
+        <Navbar />
+        <main className="flex-grow">{children}</main>
+        <Footer />
+        <FloatingCTA />
+        <MobileStickyBar />
+      </body>
+    </html>
+  );
+}
