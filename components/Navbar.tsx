@@ -9,14 +9,14 @@ import { siteConfig } from '@/data/siteConfig';
 import WhatsAppIcon from '@/components/WhatsAppIcon';
 
 const navLinks = [
-  { name: 'Home', href: '/' },
-  { name: 'Services', href: '/services' },
-  { name: 'About', href: '/about' },
-  { name: 'Projects', href: '/projects' },
-  { name: 'Gallery', href: '/gallery' },
-  { name: 'Areas', href: '/areas' },
-  { name: 'Blog', href: '/blog' },
-  { name: 'Contact', href: '/contact' },
+  { name: 'Home', href: '/#hero' },
+  { name: 'Services', href: '/#services' },
+  { name: 'About', href: '/#about' },
+  { name: 'Projects', href: '/#projects' },
+  { name: 'Gallery', href: '/#gallery' },
+  { name: 'Areas', href: '/#areas' },
+  { name: 'Blog', href: '/#blog' },
+  { name: 'Contact', href: '/#contact' },
 ];
 
 export default function Navbar() {
