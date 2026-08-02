@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
 import MobileStickyBar from "@/components/MobileStickyBar";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -79,6 +80,7 @@ export default function RootLayout({
         <Footer />
         <FloatingCTA />
         <MobileStickyBar />
+        <ScrollToTop />
       </body>
     </html>
   );

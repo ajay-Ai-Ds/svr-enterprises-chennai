@@ -38,28 +38,28 @@ export default function Navbar() {
 
   return (
     <header className="w-full sticky top-0 z-50 transition-all duration-300">
-      {/* Top Bar (Thin strip) */}
-      <div className="bg-primary text-white text-xs py-2 px-4 border-b border-accent/20 hidden md:block">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-6">
+      {/* Top Bar (Visible on all screens) */}
+      <div className="bg-primary text-white text-[11px] sm:text-xs py-1.5 px-3 sm:px-4 border-b border-accent/20">
+        <div className="max-w-7xl mx-auto flex items-center justify-between gap-2">
+          <div className="flex items-center gap-3 sm:gap-6">
             <a
               href={`tel:${siteConfig.phone.replace(/\s+/g, '')}`}
-              className="flex items-center gap-2 hover:text-accent transition-colors"
+              className="flex items-center gap-1.5 text-accent-light font-bold hover:text-white transition-colors"
             >
-              <Phone className="w-3.5 h-3.5 text-accent" />
+              <Phone className="w-3.5 h-3.5 text-accent shrink-0" />
               <span>{siteConfig.phone}</span>
             </a>
             <a
               href={`mailto:${siteConfig.email}`}
-              className="flex items-center gap-2 hover:text-accent transition-colors"
+              className="hidden sm:flex items-center gap-1.5 hover:text-accent transition-colors"
             >
-              <Mail className="w-3.5 h-3.5 text-accent" />
+              <Mail className="w-3.5 h-3.5 text-accent shrink-0" />
               <span>{siteConfig.email}</span>
             </a>
           </div>
 
-          <div className="text-accent-light font-medium tracking-wide">
-            Serving All of Chennai | Free Site Inspection
+          <div className="text-accent-light font-medium tracking-tight text-[10px] sm:text-xs text-right">
+            Serving All of Chennai | Free Site Visit
           </div>
         </div>
       </div>
@@ -67,19 +67,19 @@ export default function Navbar() {
       {/* Main Navbar */}
       <nav
         className={`bg-background transition-all duration-300 border-b border-accent/30 ${
-          isScrolled ? 'py-3 shadow-md' : 'py-4'
+          isScrolled ? 'py-2.5 shadow-md' : 'py-3 sm:py-4'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 md:px-6 flex items-center justify-between">
-          {/* Logo */}
-          <Link href="/" className="flex items-center group">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 flex items-center justify-between">
+          {/* Logo & Prominent Business Name */}
+          <Link href="/" className="flex items-center gap-2 group">
             <Image
               src="/images/logo/logo-navbar.svg"
               alt="SVR Enterprises - Safety Nets & Invisible Grills"
-              width={200}
-              height={48}
+              width={260}
+              height={60}
               priority
-              className="h-10 md:h-12 w-auto object-contain transition-transform group-hover:scale-105"
+              className="h-11 sm:h-13 md:h-14 w-auto object-contain transition-transform group-hover:scale-105"
             />
           </Link>
 
