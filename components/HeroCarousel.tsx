@@ -106,7 +106,7 @@ export default function HeroCarousel() {
         <motion.div
           key={slides[currentSlide].bgImage}
           initial={{ opacity: 0 }}
-          animate={{ opacity: 0.45 }}
+          animate={{ opacity: 0.85 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.8 }}
           className="absolute inset-0 bg-cover bg-center z-0"
@@ -114,8 +114,8 @@ export default function HeroCarousel() {
         />
       </AnimatePresence>
 
-      {/* Dark Charcoal Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/85 to-primary/70 z-10" />
+      {/* Subtle Soft Overlay for Contrast & Clear Visuals */}
+      <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/40 to-primary/20 z-10" />
 
       {/* Slide Content */}
       <div className="relative z-20 max-w-5xl mx-auto px-4 text-center py-20">
@@ -133,11 +133,11 @@ export default function HeroCarousel() {
               <span>{slides[currentSlide].tag}</span>
             </div>
 
-            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white leading-tight min-h-[2.5em] flex items-center justify-center">
+            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white leading-tight min-h-[2.5em] flex items-center justify-center drop-shadow-md">
               {slides[currentSlide].headline}
             </h1>
 
-            <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto font-light leading-relaxed">
+            <p className="text-lg sm:text-xl text-slate-100 max-w-3xl mx-auto font-medium leading-relaxed drop-shadow-md">
               {slides[currentSlide].subheading}
             </p>
           </motion.div>
