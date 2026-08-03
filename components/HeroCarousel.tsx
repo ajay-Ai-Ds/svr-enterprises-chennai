@@ -101,12 +101,12 @@ export default function HeroCarousel() {
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
     >
-      {/* Background AI Image with Smooth AnimatePresence */}
+      {/* Clear, Bright Background AI Image */}
       <AnimatePresence mode="wait">
         <motion.div
           key={slides[currentSlide].bgImage}
           initial={{ opacity: 0 }}
-          animate={{ opacity: 0.85 }}
+          animate={{ opacity: 0.95 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.8 }}
           className="absolute inset-0 bg-cover bg-center z-0"
@@ -114,11 +114,11 @@ export default function HeroCarousel() {
         />
       </AnimatePresence>
 
-      {/* Dark Charcoal Gradient Overlay for High Contrast & Text Legibility */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#1A1A1A]/70 via-[#1A1A1A]/80 to-[#1A1A1A]/95 z-10" />
+      {/* Light & Natural Ambient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-primary/30 via-primary/15 to-primary/50 z-10" />
 
       {/* Slide Content */}
-      <div className="relative z-20 max-w-5xl mx-auto px-4 text-center py-20">
+      <div className="relative z-20 max-w-5xl mx-auto px-4 text-center py-16 sm:py-20">
         <AnimatePresence mode="wait">
           <motion.div
             key={slides[currentSlide].id}
@@ -126,65 +126,63 @@ export default function HeroCarousel() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -15 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
-            className="space-y-6"
+            className="space-y-6 bg-primary/50 backdrop-blur-md p-6 sm:p-10 rounded-3xl border border-accent/30 shadow-2xl max-w-4xl mx-auto"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/25 border border-accent/50 text-[#F5F5F5] text-xs font-bold uppercase tracking-wider shadow-md">
-              <ShieldCheck className="w-4 h-4 text-accent" />
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/30 border border-accent/60 text-white text-xs font-bold uppercase tracking-wider shadow-sm">
+              <ShieldCheck className="w-4 h-4 text-accent-light" />
               <span>{slides[currentSlide].tag}</span>
             </div>
 
-            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white leading-tight min-h-[2.5em] flex items-center justify-center drop-shadow-[0_2px_8px_rgba(0,0,0,0.7)]">
+            <h1 className="font-serif text-3xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white leading-tight min-h-[2.2em] flex items-center justify-center drop-shadow-[0_4px_10px_rgba(0,0,0,0.9)]">
               {slides[currentSlide].headline}
             </h1>
 
-            <p className="text-lg sm:text-xl text-[#F5F5F5] max-w-3xl mx-auto font-medium leading-relaxed drop-shadow-[0_2px_6px_rgba(0,0,0,0.6)]">
+            <p className="text-base sm:text-xl text-white max-w-3xl mx-auto font-medium leading-relaxed drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
               {slides[currentSlide].subheading}
             </p>
+
+            {/* Primary Action Buttons */}
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4 w-full max-w-md sm:max-w-none mx-auto">
+              <a
+                href={`https://wa.me/${siteConfig.whatsappNumber}?text=Hi,%20I'm%20interested%20in%20your%20services.%20Please%20share%20details.`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto px-7 py-3.5 text-sm sm:text-base font-semibold rounded-lg bg-[#25D366] hover:bg-[#20bd5a] text-white shadow-xl hover:scale-[1.03] transition-all duration-300 flex items-center justify-center gap-2.5 cursor-pointer border border-white/20"
+              >
+                <WhatsAppIcon className="w-5 h-5 text-white shrink-0" />
+                <span>Chat on WhatsApp</span>
+              </a>
+
+              <a
+                href={`tel:${siteConfig.phone.replace(/\s+/g, '')}`}
+                className="w-full sm:w-auto px-7 py-3.5 text-sm sm:text-base font-semibold rounded-lg bg-[#B08D57] hover:bg-[#8F6F3F] text-white shadow-xl hover:scale-[1.03] transition-all duration-300 flex items-center justify-center gap-2.5 cursor-pointer border border-white/20"
+              >
+                <Phone className="w-5 h-5 text-white shrink-0" />
+                <span>Get Free Quote</span>
+              </a>
+            </div>
+
+            {/* Trust Microcopy */}
+            <div className="pt-2 flex items-center justify-center gap-2 text-xs text-white font-semibold drop-shadow">
+              <CheckCircle2 className="w-3.5 h-3.5 text-accent-light shrink-0" />
+              <span>Free site visit, no obligation • Response within 30 minutes</span>
+            </div>
           </motion.div>
         </AnimatePresence>
 
-        {/* Clean, Consistent Action Buttons */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8 w-full max-w-md sm:max-w-none mx-auto">
-          {/* WhatsApp Button */}
-          <a
-            href={`https://wa.me/${siteConfig.whatsappNumber}?text=Hi,%20I'm%20interested%20in%20your%20services.%20Please%20share%20details.`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full sm:w-auto px-7 py-3.5 text-sm sm:text-base font-semibold rounded-lg bg-[#25D366] hover:bg-[#20bd5a] text-white shadow-lg hover:scale-[1.03] transition-all duration-300 flex items-center justify-center gap-2.5 cursor-pointer"
-          >
-            <WhatsAppIcon className="w-5 h-5 text-white shrink-0" />
-            <span>Chat on WhatsApp</span>
-          </a>
-
-          {/* Get Free Quote Button */}
-          <a
-            href={`tel:${siteConfig.phone.replace(/\s+/g, '')}`}
-            className="w-full sm:w-auto px-7 py-3.5 text-sm sm:text-base font-semibold rounded-lg bg-[#B08D57] hover:bg-[#8F6F3F] text-white shadow-lg hover:scale-[1.03] transition-all duration-300 flex items-center justify-center gap-2.5 cursor-pointer"
-          >
-            <Phone className="w-5 h-5 text-white shrink-0" />
-            <span>Get Free Quote</span>
-          </a>
-        </div>
-
-        {/* Trust Microcopy */}
-        <div className="pt-4 flex items-center justify-center gap-2 text-xs text-white font-medium drop-shadow-sm">
-          <CheckCircle2 className="w-3.5 h-3.5 text-accent shrink-0" />
-          <span>Free site visit, no obligation • Response within 30 minutes</span>
-        </div>
-
         {/* Fixed Trust Badges Row */}
-        <div className="pt-10 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto border-t border-accent/30 text-center">
+        <div className="pt-10 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto border-t border-accent/30 text-center mt-8">
           <div className="flex items-center justify-center gap-3">
             <ShieldCheck className="w-5 h-5 text-accent shrink-0" />
-            <span className="text-sm text-white font-medium">500+ Successful Installations</span>
+            <span className="text-sm text-white font-semibold drop-shadow">500+ Successful Installations</span>
           </div>
           <div className="flex items-center justify-center gap-3">
             <Star className="w-5 h-5 text-accent shrink-0" />
-            <span className="text-sm text-white font-medium">5-Year Materials Warranty</span>
+            <span className="text-sm text-white font-semibold drop-shadow">5-Year Materials Warranty</span>
           </div>
           <div className="flex items-center justify-center gap-3">
             <Clock className="w-5 h-5 text-accent shrink-0" />
-            <span className="text-sm text-white font-medium">Same Day Free Site Visit</span>
+            <span className="text-sm text-white font-semibold drop-shadow">Same Day Free Site Visit</span>
           </div>
         </div>
       </div>
@@ -201,7 +199,7 @@ export default function HeroCarousel() {
       <button
         onClick={handleNext}
         aria-label="Next Slide"
-        className="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 z-30 p-3 rounded-full bg-primary/80 text-white hover:bg-accent transition-colors shadow-lg border border-accent/30 cursor-pointer"
+        className="absolute right-4 md:left-auto md:right-8 top-1/2 -translate-y-1/2 z-30 p-3 rounded-full bg-primary/80 text-white hover:bg-accent transition-colors shadow-lg border border-accent/30 cursor-pointer"
       >
         <ChevronRight className="w-6 h-6" />
       </button>
