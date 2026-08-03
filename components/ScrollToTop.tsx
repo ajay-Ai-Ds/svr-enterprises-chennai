@@ -32,7 +32,7 @@ export default function ScrollToTop() {
     <button
       onClick={scrollToTop}
       aria-label="Scroll to top"
-      className="fixed bottom-20 right-4 md:bottom-24 md:right-6 z-40 p-3 rounded-full bg-primary text-white hover:bg-accent border-2 border-accent/40 shadow-2xl transition-all duration-300 hover:scale-110 group active:scale-95"
+      className="fixed bottom-20 right-4 md:bottom-[160px] md:right-6 z-50 p-3 rounded-full bg-primary text-white hover:bg-accent border-2 border-accent/40 shadow-2xl transition-all duration-300 hover:scale-110 group active:scale-95 cursor-pointer"
     >
       <ChevronUp className="w-5 h-5 group-hover:-translate-y-0.5 transition-transform" />
     </button>
