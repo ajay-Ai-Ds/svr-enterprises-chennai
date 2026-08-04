@@ -24,7 +24,7 @@ const projects: Project[] = [
     categoryLabel: 'Safety Nets',
     location: 'Choolaimedu, Chennai',
     description: 'Installed 1mm heavy-duty UV stabilized balcony safety net for a 12th-floor apartment balcony.',
-    image: '/images/hero/hero-1-balcony-safety-net.jpg',
+    image: '/images/balconysafetynet.jpg',
   },
   {
     id: 'p2',
@@ -33,7 +33,7 @@ const projects: Project[] = [
     categoryLabel: 'Invisible Grills',
     location: 'Anna Nagar, Chennai',
     description: 'Custom fitted marine-grade stainless steel invisible grills for luxury villa French windows.',
-    image: '/images/hero/hero-2-invisible-grills.jpg',
+    image: '/images/svr-balconygrill.jpg',
   },
   {
     id: 'p3',
@@ -42,7 +42,7 @@ const projects: Project[] = [
     categoryLabel: 'Safety Nets',
     location: 'T. Nagar, Chennai',
     description: 'Sealed off utility shaft and kitchen balcony to prevent bird nesting and hygiene issues.',
-    image: '/images/services/pigeon-safety-nets.jpg',
+    image: '/images/pigeonnet.jpg',
   },
   {
     id: 'p4',
@@ -51,7 +51,7 @@ const projects: Project[] = [
     categoryLabel: 'Cloth Hangers',
     location: 'Nungambakkam, Chennai',
     description: '6-pipe 304 SS pulley-operated cloth drying rack installed in apartment laundry balcony.',
-    image: '/images/services/ceiling-cloth-hangers.jpg',
+    image: '/images/svr-cloth-hanger1.jpg',
   },
   {
     id: 'p5',
@@ -60,7 +60,7 @@ const projects: Project[] = [
     categoryLabel: 'Invisible Grills',
     location: 'Velachery, Chennai',
     description: '2-inch narrow gap invisible grill installation for child safety across all high-floor windows.',
-    image: '/images/hero/hero-2-invisible-grills.jpg',
+    image: '/images/childrensafetygrill.jpg',
   },
   {
     id: 'p6',
@@ -69,7 +69,7 @@ const projects: Project[] = [
     categoryLabel: 'Safety Nets',
     location: 'Porur, Chennai',
     description: 'Full vertical duct area sealing using high-tensile HDPE nets for a residential complex.',
-    image: '/images/services/pigeon-safety-nets.jpg',
+    image: '/images/ductarea.webp',
   },
   {
     id: 'p7',
@@ -78,7 +78,7 @@ const projects: Project[] = [
     categoryLabel: 'Invisible Grills',
     location: 'OMR, Chennai',
     description: 'Installed fire-escape accessible SS invisible grills for a 5-story office building facade.',
-    image: '/images/services/balcony-invisible-grills.jpg',
+    image: '/images/svr-commercialgrill.jpg',
   },
   {
     id: 'p8',
@@ -87,7 +87,7 @@ const projects: Project[] = [
     categoryLabel: 'Safety Nets',
     location: 'Adyar, Chennai',
     description: 'Small mesh durable pet safety net fitted on high-rise balcony for cat safety.',
-    image: '/images/services/pet-safety-nets.jpg',
+    image: '/images/pet.jpg',
   },
   {
     id: 'p9',
@@ -96,7 +96,7 @@ const projects: Project[] = [
     categoryLabel: 'Safety Nets',
     location: 'Mylapore, Chennai',
     description: 'Fitted SS 304 bird spikes on window ledges and AC outdoor compressor units.',
-    image: '/images/services/anti-bird-spikes.jpg',
+    image: '/images/service-spikes.jpg',
   },
   {
     id: 'p10',
@@ -105,7 +105,7 @@ const projects: Project[] = [
     categoryLabel: 'Safety Nets',
     location: 'Mogappair, Chennai',
     description: 'Custom rooftop cricket practice enclosure with UV resistant sports netting.',
-    image: '/images/hero/hero-3-team-installing.jpg',
+    image: '/images/cricketpracticenet.jpg',
   },
   {
     id: 'p11',
@@ -114,7 +114,7 @@ const projects: Project[] = [
     categoryLabel: 'Safety Nets',
     location: 'Kilpauk, Chennai',
     description: 'Vertical staircase center gap safety net installation for duplex home child safety.',
-    image: '/images/services/balcony-safety-nets.jpg',
+    image: '/images/safetynets.webp',
   },
   {
     id: 'p12',
@@ -123,7 +123,7 @@ const projects: Project[] = [
     categoryLabel: 'Cloth Hangers',
     location: 'Vadapalani, Chennai',
     description: 'Heavy-duty wall foldable cloth hanger installation for compact utility balcony.',
-    image: '/images/hero/hero-4-lifestyle-balcony.jpg',
+    image: '/images/cloth-hanger2.webp',
   },
 ];
 

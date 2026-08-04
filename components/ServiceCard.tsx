@@ -10,28 +10,8 @@ interface ServiceCardProps {
 }
 
 export default function ServiceCard({ service }: ServiceCardProps) {
-  // Map thumbnail image for each service
   const getThumbnailImage = () => {
-    switch (service.slug) {
-      case 'balcony-safety-nets':
-        return '/images/hero/hero-1-balcony-safety-net.jpg';
-      case 'balcony-invisible-grills':
-        return '/images/hero/hero-2-invisible-grills.jpg';
-      case 'pigeon-safety-nets':
-        return '/images/services/pigeon-safety-nets.jpg';
-      case 'anti-bird-spikes':
-        return '/images/services/anti-bird-spikes.jpg';
-      case 'ceiling-cloth-hangers':
-        return '/images/services/ceiling-cloth-hangers.jpg';
-      case 'pet-safety-nets':
-        return '/images/services/pet-safety-nets.jpg';
-      default:
-        return service.category === 'invisible-grills'
-          ? '/images/hero/hero-2-invisible-grills.jpg'
-          : service.category === 'cloth-hangers'
-          ? '/images/services/ceiling-cloth-hangers.jpg'
-          : '/images/hero/hero-1-balcony-safety-net.jpg';
-    }
+    return service.image || '/images/balconysafetynet.jpg';
   };
 
   const renderIcon = () => {

@@ -14,6 +14,7 @@ import {
   Award,
   Sparkles,
 } from 'lucide-react';
+import Image from 'next/image';
 import { services, ServiceItem } from '@/data/services';
 import { siteConfig } from '@/data/siteConfig';
 import ServiceCard from '@/components/ServiceCard';
@@ -176,6 +177,22 @@ export default async function ServiceDetailPage({ params }: Props) {
             <h2 className="font-serif text-2xl sm:text-3xl font-bold text-primary border-b border-accent/30 pb-3">
               Overview & Product Specifications
             </h2>
+
+            {/* Featured Service Image */}
+            <div className="relative aspect-video rounded-2xl overflow-hidden shadow-lg border border-accent/20 group">
+              <Image
+                src={service.image}
+                alt={`${service.title} - ${siteConfig.businessName} Chennai`}
+                fill
+                sizes="(max-width: 1024px) 100vw, 66vw"
+                priority
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute bottom-3 left-3 bg-primary/90 text-accent-light text-xs font-bold px-3 py-1.5 rounded-full border border-accent/30 backdrop-blur-sm">
+                Verified Installation Image
+              </div>
+            </div>
+
             <div className="prose prose-slate max-w-none text-text-main leading-relaxed space-y-4 text-base">
               <p>{service.fullDescription}</p>
               <p>
@@ -346,26 +363,37 @@ export default async function ServiceDetailPage({ params }: Props) {
           </div>
         </section>
 
-        {/* 5. IMAGE GALLERY PLACEHOLDER GRID */}
+        {/* 5. REAL IMAGE GALLERY GRID */}
         <section className="space-y-6">
           <h2 className="font-serif text-2xl font-bold text-primary">
             Installation Gallery ({service.title})
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {[1, 2, 3, 4].map((item) => (
-              <div
-                key={item}
-                className="aspect-video sm:aspect-square bg-surface rounded-xl border border-accent/20 flex items-center justify-center p-4 text-center group hover:border-accent transition-colors"
-              >
-                <div className="space-y-1">
-                  <Ruler className="w-6 h-6 text-accent mx-auto group-hover:scale-110 transition-transform" />
-                  <span className="text-xs font-semibold text-primary block">
-                    {service.title} Project #{item}
-                  </span>
-                  <span className="text-[10px] text-text-muted block">Chennai Site Work</span>
+            {services
+              .filter((s) => s.category === service.category)
+              .slice(0, 4)
+              .map((item, idx) => (
+                <div
+                  key={idx}
+                  className="aspect-square bg-surface rounded-xl border border-accent/20 overflow-hidden relative group hover:border-accent shadow-sm transition-all cursor-pointer"
+                >
+                  <Image
+                    src={item.image}
+                    alt={`${item.title} ${siteConfig.businessName}`}
+                    fill
+                    sizes="(max-width: 640px) 50vw, 25vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent p-3 flex flex-col justify-end">
+                    <span className="text-accent-light text-[10px] font-bold uppercase tracking-wider">
+                      {item.categoryName}
+                    </span>
+                    <span className="text-white text-xs font-serif font-bold line-clamp-1">
+                      {item.title}
+                    </span>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
           </div>
         </section>
 
