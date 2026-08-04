@@ -101,12 +101,12 @@ export default function HeroCarousel() {
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
     >
-      {/* Clear, Bright Background AI Image */}
+      {/* Clear, Bright Background Image */}
       <AnimatePresence mode="wait">
         <motion.div
           key={slides[currentSlide].bgImage}
           initial={{ opacity: 0 }}
-          animate={{ opacity: 0.95 }}
+          animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.8 }}
           className="absolute inset-0 bg-cover bg-center z-0"
@@ -114,10 +114,10 @@ export default function HeroCarousel() {
         />
       </AnimatePresence>
 
-      {/* Light & Natural Ambient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-primary/30 via-primary/15 to-primary/50 z-10" />
+      {/* Subtle overlay for text contrast */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/25 to-black/50 z-10" />
 
-      {/* Slide Content */}
+      {/* Slide Content without dark card box */}
       <div className="relative z-20 max-w-5xl mx-auto px-4 text-center py-16 sm:py-20">
         <AnimatePresence mode="wait">
           <motion.div
@@ -126,18 +126,18 @@ export default function HeroCarousel() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -15 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
-            className="space-y-6 bg-primary/50 backdrop-blur-md p-6 sm:p-10 rounded-3xl border border-accent/30 shadow-2xl max-w-4xl mx-auto"
+            className="space-y-6 max-w-4xl mx-auto"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/30 border border-accent/60 text-white text-xs font-bold uppercase tracking-wider shadow-sm">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/70 border border-accent/60 text-white text-xs font-bold uppercase tracking-wider shadow-md backdrop-blur-sm">
               <ShieldCheck className="w-4 h-4 text-accent-light" />
               <span>{slides[currentSlide].tag}</span>
             </div>
 
-            <h1 className="font-serif text-3xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white leading-tight min-h-[2.2em] flex items-center justify-center drop-shadow-[0_4px_10px_rgba(0,0,0,0.9)]">
+            <h1 className="font-serif text-3xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white leading-tight flex items-center justify-center drop-shadow-[0_4px_12px_rgba(0,0,0,0.95)]">
               {slides[currentSlide].headline}
             </h1>
 
-            <p className="text-base sm:text-xl text-white max-w-3xl mx-auto font-medium leading-relaxed drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
+            <p className="text-base sm:text-xl text-white max-w-3xl mx-auto font-medium leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
               {slides[currentSlide].subheading}
             </p>
 
@@ -163,7 +163,7 @@ export default function HeroCarousel() {
             </div>
 
             {/* Trust Microcopy */}
-            <div className="pt-2 flex items-center justify-center gap-2 text-xs text-white font-semibold drop-shadow">
+            <div className="pt-2 flex items-center justify-center gap-2 text-xs text-white font-semibold drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
               <CheckCircle2 className="w-3.5 h-3.5 text-accent-light shrink-0" />
               <span>Free site visit, no obligation • Response within 30 minutes</span>
             </div>
