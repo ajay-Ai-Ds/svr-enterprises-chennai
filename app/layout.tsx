@@ -63,6 +63,9 @@ export const metadata: Metadata = {
     description: `Certified balcony safety nets, invisible grills & cloth hangers in Chennai. Call ${siteConfig.phone}.`,
     images: ['/images/hero/hero-1-balcony-safety-net.jpg'],
   },
+  verification: {
+    google: 'yBjLNjcaIeiptvy436YW4VT5OFqS4Gsh46ryvTjXZ4M',
+  },
 };
 
 export default function RootLayout({
