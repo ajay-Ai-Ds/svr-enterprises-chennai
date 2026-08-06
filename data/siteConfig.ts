@@ -5,7 +5,7 @@ export const siteConfig = {
   email: "info.svrenterpriseschennai@gmail.com",
   city: "Chennai",
   state: "Tamil Nadu",
-  domain: "svrenterpriseschennai.com",
+  domain: "svrenterpriseschennai.in",
   whatsappNumber: "919182637431",
   address: "34/28, Andavar St, Veerapandi Nagar, Choolaimedu, Chennai, Greater Chennai, Tamil Nadu 600094",
   area: "Choolaimedu",

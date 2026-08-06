@@ -1,9 +1,10 @@
 import { MetadataRoute } from 'next';
 import { services } from '@/data/services';
 import { blogPosts } from '@/data/blogPosts';
+import { siteConfig } from '@/data/siteConfig';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://svrenterpriseschennai.com';
+  const baseUrl = `https://${siteConfig.domain}`;
 
   const staticPages = [
     '',
