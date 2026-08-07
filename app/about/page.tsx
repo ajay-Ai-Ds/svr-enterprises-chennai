@@ -80,7 +80,7 @@ export default function AboutPage() {
           <div className="bg-surface rounded-2xl p-6 sm:p-8 border-2 border-accent/30 shadow-lg space-y-6 text-center">
             <div className="relative aspect-video rounded-xl overflow-hidden shadow-md border border-accent/20">
               <Image
-                src="/images/main-images/client-grill-1.jpg"
+                src="/images/about/our-story.jpg"
                 alt="SVR Enterprises Certified Installation Work"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
