@@ -49,7 +49,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Heavy-duty balcony safety nets designed to prevent accidental falls while preserving ventilation.',
     fullDescription: 'Our Balcony Safety Nets in Chennai offer robust security for high-rise apartments and homes. Made from premium UV-resistant materials, they withstand harsh weather and high tension. Enjoy peace of mind without compromising air flow or scenic balcony views.',
     icon: 'Shield',
-    image: '/images/main-images/BalconyNet-1.jpg',
+    image: '/images/main-images/balconynet-1.jpg',
     features: ['High Tensile Strength', 'UV Treated Nylon', '5-Year Warranty', 'Zero Maintenance'],
   },
   {
@@ -61,7 +61,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Child-proof safety netting for windows, staircases, and balconies to keep kids safe at home.',
     fullDescription: 'Keep your toddlers and children safe around balconies, windows, and open terraces. Our custom-fitted Children Safety Nets are durable, soft-edged, and rigorously tested for impact resistance. Perfect for multi-story residential buildings in Chennai.',
     icon: 'Baby',
-    image: '/images/main-images/Children-Safety-Net.jpg',
+    image: '/images/main-images/children-safety-net.jpg',
     features: ['Kid-Safe Mesh', 'High Load Capacity', 'Custom Mesh Sizes', 'Clean Aesthetic'],
   },
   {
@@ -97,7 +97,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Professional boundary and enclosure nets for sports fields, courts, and school grounds.',
     fullDescription: 'We install heavy-gauge sports netting solutions for football, tennis, volleyball, and multi-purpose sports courts. Built for high impact resistance, our nets ensure balls stay within court boundaries safely.',
     icon: 'Trophy',
-    image: '/images/main-images/Sports-Net-1.jpg',
+    image: '/images/main-images/sports-net-1.jpg',
     features: ['Impact Resistant', 'Heavy Gauge Cord', 'All-Weather Material', 'Professional Mounting'],
   },
   {
@@ -109,7 +109,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Industrial-grade safety debris and worker protection nets for building sites.',
     fullDescription: 'Essential fall-arrest and debris containment nets for construction and renovation projects across Chennai. Compliant with safety standards, our nets protect site workers, pedestrians, and surrounding property.',
     icon: 'HardHat',
-    image: '/images/main-images/Factory-Net-1.jpg',
+    image: '/images/main-images/factory-net-1.jpg',
     features: ['Debris Catch Mesh', 'Industrial Standard', 'High Tension Load', 'Fast Deployment'],
   },
   {
@@ -121,7 +121,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Comprehensive netting solutions for open duct lines, shafts, and plumbing areas.',
     fullDescription: 'Building ducts and open vertical shafts are common entry points for birds and pests. Our Duct Area Safety Nets completely seal off shafts while maintaining essential airflow for ventilation and maintenance access.',
     icon: 'Maximize2',
-    image: '/images/main-images/Duct-Area-1.jpg',
+    image: '/images/main-images/duct-area-1.jpg',
     features: ['Full Shaft Coverage', 'Anti-Corrosion Hooks', 'Prevents Bird Nesting', 'Easy Maintenance Access'],
   },
   {
@@ -157,7 +157,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Polycarbonate and stainless steel bird spikes for ledges, parapets, and AC units.',
     fullDescription: 'Keep pigeons and birds from perching on narrow ledges, window sills, signboards, and outdoor AC compressors. Our humane Anti-Bird Spikes are rust-proof, weather-resistant, and discreet.',
     icon: 'Zap',
-    image: '/images/main-images/Bird-Spikes.jpg',
+    image: '/images/main-images/bird-spikes.jpg',
     features: ['SS 304 Spikes', 'UV Polycarbonate Base', 'Discreet Appearance', 'Humane & Safe'],
   },
 
@@ -171,7 +171,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Modern SS 316 marine grade invisible grills offering unobstructed panoramic balcony views.',
     fullDescription: 'Upgrade your balcony with ultra-sleek invisible grills. Engineered with 316 marine-grade stainless steel cables encased in protective nylon, they support over 400kg of pressure while maintaining unblocked views.',
     icon: 'Grid',
-    image: '/images/main-images/Balcony-Grills.jpg',
+    image: '/images/main-images/balcony-grills.jpg',
     features: ['316 Marine Grade SS Cable', '400kg Tensile Capacity', 'Unblocked Panoramic View', 'Anti-Rust Coating'],
   },
   {
@@ -183,7 +183,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'High-security child safety invisible grills engineered for high-rise apartment windows & balconies.',
     fullDescription: 'Provide ultimate security for your children without making your home feel enclosed like a cage. Spaced at optimized 2-inch or 3-inch intervals, our Children Invisible Grills prevent fall accidents seamlessly.',
     icon: 'ShieldCheck',
-    image: '/images/main-images/Children-InvisibleGrills.jpg',
+    image: '/images/main-images/children-invisiblegrills.jpg',
     features: ['Child Safe 2" Gap', 'No Sharp Edges', 'Emergency Cut Capability', 'Architectural Elegance'],
   },
   {
@@ -195,7 +195,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Narrow-gap invisible grill systems to keep pets securely inside high-floor balconies.',
     fullDescription: 'Tailored for pet owners who want sleek aesthetics. Featuring narrow 2-inch spacing with high-tension stainless steel wire cables, your cats and dogs stay completely safe on upper floor balconies.',
     icon: 'Eye',
-    image: '/images/main-images/Balcony-Grills-2.jpg',
+    image: '/images/main-images/balcony-grills-2.jpg',
     features: ['2-inch Narrow Gap', 'High Tensile Wire', 'Pet Escape Proof', 'Zero Rust'],
   },
   {
@@ -207,7 +207,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Sleek replacement for traditional iron window grates with zero blockage of natural sunlight.',
     fullDescription: 'Replace heavy, rusty iron grilles with high-strength invisible grills on French windows, sliding glass windows, and bay windows. Allows 95%+ natural sunlight while providing robust burglary protection.',
     icon: 'Layout',
-    image: '/images/main-images/Window-Grills.jpg',
+    image: '/images/main-images/window-grills.jpg',
     features: ['95% Light Transmittance', 'Replaces Heavy Iron Grills', 'Easy Cleaning Access', 'Sleek Aluminum Track'],
   },
   {
@@ -219,7 +219,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Vertical or horizontal invisible cable railings for staircases, voids, and mezzanine floors.',
     fullDescription: 'Enhance open staircases and indoor void spaces with high-end invisible cable railings. Designed for modern duplexes, villas, and commercial offices, offering safety alongside minimalist architectural beauty.',
     icon: 'TrendingUp',
-    image: '/images/main-images/Staircase-Grills.jpg',
+    image: '/images/main-images/staircase-grills.jpg',
     features: ['Minimalist Aesthetic', 'High Tension Railing', 'Custom Angle Mounting', 'Duplex & Villa Ideal'],
   },
   {
@@ -245,7 +245,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Pulley-operated stainless steel ceiling cloth drying racks for laundry & balcony space optimization.',
     fullDescription: 'Maximize your laundry space with smooth pulley-operated ceiling cloth drying racks. Made from rust-proof stainless steel pipes, individual rods lower independently to make hanging clothes effortless.',
     icon: 'Shirt',
-    image: '/images/main-images/Cloth-Hangera-1.jpg',
+    image: '/images/main-images/cloth-hangera-1.jpg',
     features: ['Independent Rod Movement', 'Smooth Nylon Pulley System', 'SS 304 Rust-Proof Pipes', 'Up to 30kg Capacity'],
   },
   {
