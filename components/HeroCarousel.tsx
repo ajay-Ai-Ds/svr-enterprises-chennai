@@ -158,7 +158,7 @@ export default function HeroCarousel() {
                 className="w-full sm:w-auto px-7 py-3.5 text-sm sm:text-base font-semibold rounded-lg bg-[#B08D57] hover:bg-[#8F6F3F] text-white shadow-xl hover:scale-[1.03] transition-all duration-300 flex items-center justify-center gap-2.5 cursor-pointer border border-white/20"
               >
                 <Phone className="w-5 h-5 text-white shrink-0" />
-                <span>Get Free Quote</span>
+                <span>{siteConfig.phone} - Get Free Quote</span>
               </a>
             </div>
 

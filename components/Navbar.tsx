@@ -121,7 +121,7 @@ export default function Navbar() {
               href={`tel:${siteConfig.phone.replace(/\s+/g, '')}`}
               className="px-4 py-2 text-xs font-semibold rounded bg-primary text-white border border-transparent hover:border-accent hover:text-accent transition-all duration-200 shadow-sm"
             >
-              Call Now
+              <span>{siteConfig.phone} - Call Now</span>
             </a>
           </div>
 
