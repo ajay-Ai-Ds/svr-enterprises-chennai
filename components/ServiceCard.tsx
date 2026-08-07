@@ -11,7 +11,7 @@ interface ServiceCardProps {
 
 export default function ServiceCard({ service }: ServiceCardProps) {
   const getThumbnailImage = () => {
-    return service.image || '/images/balconysafetynet.jpg';
+    return service.image || '/images/main-images/BalconyNet-1.jpg';
   };
 
   const renderIcon = () => {

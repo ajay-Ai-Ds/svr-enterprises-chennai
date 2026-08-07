@@ -23,22 +23,22 @@ interface GalleryItem {
 }
 
 const galleryItems: GalleryItem[] = [
-  { id: 1, title: 'High-Rise Balcony Safety Net Fitting', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Choolaimedu, Chennai', image: '/images/balconysafetynet.jpg' },
-  { id: 2, title: 'Panoramic View Invisible Grills', category: 'invisible-grills', categoryLabel: 'Invisible Grills', location: 'Anna Nagar, Chennai', image: '/images/svr-balconygrill.jpg' },
-  { id: 3, title: 'Pigeon Net Utility Enclosure', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'T. Nagar, Chennai', image: '/images/pigeonnet.jpg' },
-  { id: 4, title: 'Ceiling Cloth Drying Pulley Rack', category: 'cloth-hangers', categoryLabel: 'Cloth Hangers', location: 'Nungambakkam, Chennai', image: '/images/svr-cloth-hanger1.jpg' },
-  { id: 5, title: 'Before vs After Pigeon Netting', category: 'before-after', categoryLabel: 'Before-After', location: 'Velachery, Chennai', image: '/images/service-spikes.jpg' },
-  { id: 6, title: 'Child Safety Window Invisible Grills', category: 'invisible-grills', categoryLabel: 'Invisible Grills', location: 'Kilpauk, Chennai', image: '/images/childrensafetygrill.jpg' },
-  { id: 7, title: 'Duct Area Shaft Safety Netting', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Porur, Chennai', image: '/images/ductarea.webp' },
-  { id: 8, title: 'Rooftop Cricket Practice Netting', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Mogappair, Chennai', image: '/images/cricketpracticenet.jpg' },
-  { id: 9, title: 'Balcony Wall Foldable Cloth Hanger', category: 'cloth-hangers', categoryLabel: 'Cloth Hangers', location: 'Vadapalani, Chennai', image: '/images/cloth-hanger2.webp' },
-  { id: 10, title: 'Pet Safety Balcony Net Enclosure', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Ashok Nagar, Chennai', image: '/images/pet.jpg' },
-  { id: 11, title: 'Commercial Office Invisible Grills', category: 'invisible-grills', categoryLabel: 'Invisible Grills', location: 'OMR, Chennai', image: '/images/svr-commercialgrill.jpg' },
-  { id: 12, title: 'Before vs After Invisible Grill Fitting', category: 'before-after', categoryLabel: 'Before-After', location: 'KK Nagar, Chennai', image: '/images/windowgrill.webp' },
-  { id: 13, title: 'Anti-Bird Stainless Steel Spikes', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Egmore, Chennai', image: '/images/service-spikes.jpg' },
-  { id: 14, title: 'Staircase Void SS Cable Railing', category: 'invisible-grills', categoryLabel: 'Invisible Grills', location: 'Saligramam, Chennai', image: '/images/safetynets.webp' },
-  { id: 15, title: 'Monkey Protection Safety Netting', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Kodambakkam, Chennai', image: '/images/monkeysafetynet.webp' },
-  { id: 16, title: 'Construction Safety Debris Netting', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Virugambakkam, Chennai', image: '/images/constructionnet.webp' },
+  { id: 1, title: 'High-Rise Balcony Safety Net Fitting', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Choolaimedu, Chennai', image: '/images/main-images/BalconyNet-1.jpg' },
+  { id: 2, title: 'Panoramic View Invisible Grills', category: 'invisible-grills', categoryLabel: 'Invisible Grills', location: 'Anna Nagar, Chennai', image: '/images/main-images/Balcony-Grills.jpg' },
+  { id: 3, title: 'Pigeon Net Utility Enclosure', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'T. Nagar, Chennai', image: '/images/main-images/pigeon-safety-nets-ai.png' },
+  { id: 4, title: 'Ceiling Cloth Drying Pulley Rack', category: 'cloth-hangers', categoryLabel: 'Cloth Hangers', location: 'Nungambakkam, Chennai', image: '/images/main-images/Cloth-Hangera-1.jpg' },
+  { id: 5, title: 'Before vs After Pigeon Netting', category: 'before-after', categoryLabel: 'Before-After', location: 'Velachery, Chennai', image: '/images/main-images/Bird-Spikes.jpg' },
+  { id: 6, title: 'Child Safety Window Invisible Grills', category: 'invisible-grills', categoryLabel: 'Invisible Grills', location: 'Kilpauk, Chennai', image: '/images/main-images/Children-InvisibleGrills.jpg' },
+  { id: 7, title: 'Duct Area Shaft Safety Netting', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Porur, Chennai', image: '/images/main-images/Duct-Area-1.jpg' },
+  { id: 8, title: 'Rooftop Cricket Practice Netting', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Mogappair, Chennai', image: '/images/main-images/cricket.jpeg' },
+  { id: 9, title: 'Balcony Wall Foldable Cloth Hanger', category: 'cloth-hangers', categoryLabel: 'Cloth Hangers', location: 'Vadapalani, Chennai', image: '/images/main-images/balconyclothhangers.jpg' },
+  { id: 10, title: 'Pet Safety Balcony Net Enclosure', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Ashok Nagar, Chennai', image: '/images/main-images/pet.jpg' },
+  { id: 11, title: 'Commercial Office Invisible Grills', category: 'invisible-grills', categoryLabel: 'Invisible Grills', location: 'OMR, Chennai', image: '/images/main-images/Balcony-Grills-3.jpg' },
+  { id: 12, title: 'Before vs After Invisible Grill Fitting', category: 'before-after', categoryLabel: 'Before-After', location: 'KK Nagar, Chennai', image: '/images/main-images/Window-Grills.jpg' },
+  { id: 13, title: 'Anti-Bird Stainless Steel Spikes', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Egmore, Chennai', image: '/images/main-images/Bird-Spikes.jpg' },
+  { id: 14, title: 'Staircase Void SS Cable Railing', category: 'invisible-grills', categoryLabel: 'Invisible Grills', location: 'Saligramam, Chennai', image: '/images/main-images/Staircase-Grills.jpg' },
+  { id: 15, title: 'Monkey Protection Safety Netting', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Kodambakkam, Chennai', image: '/images/main-images/monkey.jpeg' },
+  { id: 16, title: 'Construction Safety Debris Netting', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Virugambakkam, Chennai', image: '/images/main-images/Factory-Net-1.jpg' },
 ];
 
 export default function GalleryPage() {

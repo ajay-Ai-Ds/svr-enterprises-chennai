@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.businessName,
     images: [
       {
-        url: '/images/hero/hero-1-balcony-safety-net.jpg',
+        url: '/images/main-images/BalconyNet-1.jpg',
         width: 1200,
         height: 630,
         alt: `${siteConfig.businessName} Balcony Safety Net Installation Chennai`,
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: `${siteConfig.businessName} | Safety Nets & Invisible Grills Chennai`,
     description: `Certified balcony safety nets, invisible grills & cloth hangers in Chennai. Call ${siteConfig.phone}.`,
-    images: ['/images/hero/hero-1-balcony-safety-net.jpg'],
+    images: ['/images/main-images/BalconyNet-1.jpg'],
   },
   verification: {
     google: 'yBjLNjcaIeiptvy436YW4VT5OFqS4Gsh46ryvTjXZ4M',

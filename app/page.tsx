@@ -60,12 +60,12 @@ interface Project {
 }
 
 const projects: Project[] = [
-  { id: 'p1', title: 'High-Rise Balcony Safety Net Installation', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Choolaimedu, Chennai', description: 'Installed 1mm heavy-duty UV stabilized balcony safety net for a 12th-floor balcony.', image: '/images/balconysafetynet.jpg' },
-  { id: 'p2', title: '316 SS Cable Invisible Grills Fitting', category: 'invisible-grills', categoryLabel: 'Invisible Grills', location: 'Anna Nagar, Chennai', description: 'Custom fitted marine-grade stainless steel invisible grills for luxury villa French windows.', image: '/images/svr-balconygrill.jpg' },
-  { id: 'p3', title: 'Pigeon Anti-Bird Protection Net', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'T. Nagar, Chennai', description: 'Sealed off utility shaft and kitchen balcony to prevent bird nesting and hygiene issues.', image: '/images/pigeonnet.jpg' },
-  { id: 'p4', title: 'Ceiling Pulley Cloth Drying Hanger', category: 'cloth-hangers', categoryLabel: 'Cloth Hangers', location: 'Nungambakkam, Chennai', description: '6-pipe 304 SS pulley-operated cloth drying rack installed in apartment laundry balcony.', image: '/images/svr-cloth-hanger1.jpg' },
-  { id: 'p5', title: 'Children Safety Invisible Grills', category: 'invisible-grills', categoryLabel: 'Invisible Grills', location: 'Velachery, Chennai', description: '2-inch narrow gap invisible grill installation for child safety across all high-floor windows.', image: '/images/childrensafetygrill.jpg' },
-  { id: 'p6', title: 'Duct Area & Pipe Shaft Netting', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Porur, Chennai', description: 'Full vertical duct area sealing using high-tensile HDPE nets for a residential complex.', image: '/images/ductarea.webp' },
+  { id: 'p1', title: 'High-Rise Balcony Safety Net Installation', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Choolaimedu, Chennai', description: 'Installed 1mm heavy-duty UV stabilized balcony safety net for a 12th-floor balcony.', image: '/images/main-images/BalconyNet-1.jpg' },
+  { id: 'p2', title: '316 SS Cable Invisible Grills Fitting', category: 'invisible-grills', categoryLabel: 'Invisible Grills', location: 'Anna Nagar, Chennai', description: 'Custom fitted marine-grade stainless steel invisible grills for luxury villa French windows.', image: '/images/main-images/Balcony-Grills.jpg' },
+  { id: 'p3', title: 'Pigeon Anti-Bird Protection Net', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'T. Nagar, Chennai', description: 'Sealed off utility shaft and kitchen balcony to prevent bird nesting and hygiene issues.', image: '/images/main-images/pigeon-safety-nets-ai.png' },
+  { id: 'p4', title: 'Ceiling Pulley Cloth Drying Hanger', category: 'cloth-hangers', categoryLabel: 'Cloth Hangers', location: 'Nungambakkam, Chennai', description: '6-pipe 304 SS pulley-operated cloth drying rack installed in apartment laundry balcony.', image: '/images/main-images/Cloth-Hangera-1.jpg' },
+  { id: 'p5', title: 'Children Safety Invisible Grills', category: 'invisible-grills', categoryLabel: 'Invisible Grills', location: 'Velachery, Chennai', description: '2-inch narrow gap invisible grill installation for child safety across all high-floor windows.', image: '/images/main-images/Children-InvisibleGrills.jpg' },
+  { id: 'p6', title: 'Duct Area & Pipe Shaft Netting', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Porur, Chennai', description: 'Full vertical duct area sealing using high-tensile HDPE nets for a residential complex.', image: '/images/main-images/Duct-Area-1.jpg' },
 ];
 
 // Gallery items
@@ -79,14 +79,14 @@ interface GalleryItem {
 }
 
 const galleryItems: GalleryItem[] = [
-  { id: 1, title: 'High-Rise Balcony Safety Net Fitting', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Choolaimedu, Chennai', image: '/images/balconysafetynet.jpg' },
-  { id: 2, title: 'Panoramic View Invisible Grills', category: 'invisible-grills', categoryLabel: 'Invisible Grills', location: 'Anna Nagar, Chennai', image: '/images/svr-balconygrill.jpg' },
-  { id: 3, title: 'Pigeon Net Utility Enclosure', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'T. Nagar, Chennai', image: '/images/pigeonnet.jpg' },
-  { id: 4, title: 'Ceiling Cloth Drying Pulley Rack', category: 'cloth-hangers', categoryLabel: 'Cloth Hangers', location: 'Nungambakkam, Chennai', image: '/images/svr-cloth-hanger1.jpg' },
-  { id: 5, title: 'Child Safety Window Invisible Grills', category: 'invisible-grills', categoryLabel: 'Invisible Grills', location: 'Kilpauk, Chennai', image: '/images/childrensafetygrill.jpg' },
-  { id: 6, title: 'Pet Safety Balcony Net Enclosure', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Ashok Nagar, Chennai', image: '/images/pet.jpg' },
-  { id: 7, title: 'Anti-Bird Stainless Steel Spikes', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Egmore, Chennai', image: '/images/service-spikes.jpg' },
-  { id: 8, title: 'Balcony Wall Foldable Cloth Hanger', category: 'cloth-hangers', categoryLabel: 'Cloth Hangers', location: 'Vadapalani, Chennai', image: '/images/cloth-hanger2.webp' },
+  { id: 1, title: 'High-Rise Balcony Safety Net Fitting', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Choolaimedu, Chennai', image: '/images/main-images/BalconyNet-1.jpg' },
+  { id: 2, title: 'Panoramic View Invisible Grills', category: 'invisible-grills', categoryLabel: 'Invisible Grills', location: 'Anna Nagar, Chennai', image: '/images/main-images/Balcony-Grills.jpg' },
+  { id: 3, title: 'Pigeon Net Utility Enclosure', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'T. Nagar, Chennai', image: '/images/main-images/pigeon-safety-nets-ai.png' },
+  { id: 4, title: 'Ceiling Cloth Drying Pulley Rack', category: 'cloth-hangers', categoryLabel: 'Cloth Hangers', location: 'Nungambakkam, Chennai', image: '/images/main-images/Cloth-Hangera-1.jpg' },
+  { id: 5, title: 'Child Safety Window Invisible Grills', category: 'invisible-grills', categoryLabel: 'Invisible Grills', location: 'Kilpauk, Chennai', image: '/images/main-images/Children-InvisibleGrills.jpg' },
+  { id: 6, title: 'Pet Safety Balcony Net Enclosure', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Ashok Nagar, Chennai', image: '/images/main-images/pet.jpg' },
+  { id: 7, title: 'Anti-Bird Stainless Steel Spikes', category: 'safety-nets', categoryLabel: 'Safety Nets', location: 'Egmore, Chennai', image: '/images/main-images/Bird-Spikes.jpg' },
+  { id: 8, title: 'Balcony Wall Foldable Cloth Hanger', category: 'cloth-hangers', categoryLabel: 'Cloth Hangers', location: 'Vadapalani, Chennai', image: '/images/main-images/balconyclothhangers.jpg' },
 ];
 
 const chennaiLocalities = [
@@ -330,7 +330,7 @@ export default function Home() {
             {/* Story Image */}
             <div className="relative aspect-4/3 rounded-2xl overflow-hidden border-2 border-accent/30 shadow-xl">
               <Image
-                src="/images/about/our-story.jpg"
+                src="/images/main-images/Balcony-grill-work.jpg"
                 alt="SVR Enterprises Choolaimedu Workshop Team"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"

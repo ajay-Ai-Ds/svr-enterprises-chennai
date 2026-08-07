@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   ChevronRight,
   ShieldCheck,
@@ -75,10 +76,20 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* Visual Card / Placeholder */}
-          <div className="bg-surface rounded-2xl p-8 border-2 border-accent/30 shadow-lg space-y-6 text-center">
-            <div className="w-20 h-20 rounded-full bg-primary text-accent mx-auto flex items-center justify-center shadow-md">
-              <ShieldCheck className="w-10 h-10" />
+          {/* Visual Card with Image */}
+          <div className="bg-surface rounded-2xl p-6 sm:p-8 border-2 border-accent/30 shadow-lg space-y-6 text-center">
+            <div className="relative aspect-video rounded-xl overflow-hidden shadow-md border border-accent/20">
+              <Image
+                src="/images/main-images/client-grill-1.jpg"
+                alt="SVR Enterprises Certified Installation Work"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover"
+              />
+              <div className="absolute bottom-3 left-3 bg-primary/90 text-accent-light text-xs font-bold px-3 py-1 rounded-full border border-accent/30 backdrop-blur-sm flex items-center gap-1.5">
+                <ShieldCheck className="w-4 h-4 text-accent" />
+                <span>Certified Installation Quality</span>
+              </div>
             </div>
             <h3 className="font-serif text-2xl font-bold text-primary">
               Certified Safety Standards
