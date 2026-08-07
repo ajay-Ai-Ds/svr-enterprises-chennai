@@ -49,7 +49,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Heavy-duty balcony safety nets designed to prevent accidental falls while preserving ventilation.',
     fullDescription: 'Our Balcony Safety Nets in Chennai offer robust security for high-rise apartments and homes. Made from premium UV-resistant materials, they withstand harsh weather and high tension. Enjoy peace of mind without compromising air flow or scenic balcony views.',
     icon: 'Shield',
-    image: '/images/services/balcony-safety-nets.jpg',
+    image: '/images/main-images/BalconyNet-1.jpg',
     features: ['High Tensile Strength', 'UV Treated Nylon', '5-Year Warranty', 'Zero Maintenance'],
   },
   {
@@ -73,7 +73,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Bite-resistant safety nets for cats, dogs, and birds to explore balconies safely.',
     fullDescription: 'Protect your curious pets from accidental falls or wandering out. Our Pet Safety Nets feature tight mesh dimensions and reinforced knot strength, creating a secure boundary for cats and dogs on high balcony ledges.',
     icon: 'Heart',
-    image: '/images/services/pet-safety-nets.jpg',
+    image: '/images/main-images/pet.jpg',
     features: ['Bite Resistant', 'Small Mesh Apertures', 'Weather Proof', 'Scratch Resistant'],
   },
   {
@@ -85,7 +85,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Effective pigeon and bird control netting for balconies, windows, and utility spaces.',
     fullDescription: 'Prevent pigeons and birds from nesting in your living areas, balconies, and duct spaces. Our Pigeon Safety Nets are transparent, durable, and humane, keeping your home clean, hygienic, and free from bird droppings.',
     icon: 'Feather',
-    image: '/images/services/pigeon-safety-nets.jpg',
+    image: '/images/main-images/pigeon-safety-nets-ai.png',
     features: ['Transparent Mesh', 'Hygienic & Humane', 'Long-lasting Durability', 'Custom Fitting'],
   },
   {
@@ -157,7 +157,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Polycarbonate and stainless steel bird spikes for ledges, parapets, and AC units.',
     fullDescription: 'Keep pigeons and birds from perching on narrow ledges, window sills, signboards, and outdoor AC compressors. Our humane Anti-Bird Spikes are rust-proof, weather-resistant, and discreet.',
     icon: 'Zap',
-    image: '/images/services/anti-bird-spikes.jpg',
+    image: '/images/main-images/Bird-Spikes.jpg',
     features: ['SS 304 Spikes', 'UV Polycarbonate Base', 'Discreet Appearance', 'Humane & Safe'],
   },
 
@@ -171,7 +171,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Modern SS 316 marine grade invisible grills offering unobstructed panoramic balcony views.',
     fullDescription: 'Upgrade your balcony with ultra-sleek invisible grills. Engineered with 316 marine-grade stainless steel cables encased in protective nylon, they support over 400kg of pressure while maintaining unblocked views.',
     icon: 'Grid',
-    image: '/images/services/balcony-invisible-grills.jpg',
+    image: '/images/main-images/Balcony-Grills.jpg',
     features: ['316 Marine Grade SS Cable', '400kg Tensile Capacity', 'Unblocked Panoramic View', 'Anti-Rust Coating'],
   },
   {
@@ -231,7 +231,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Heavy-duty invisible grill installations for hotels, offices, schools, and commercial complexes.',
     fullDescription: 'Architectural safety solutions for commercial high-rises, hotels, hospitals, and educational institutions. Compliant with fire safety codes while maintaining modern structural visual appeal.',
     icon: 'Building',
-    image: '/images/main-images/Balcony-Grills-3.jpg',
+    image: '/images/main-images/client-grill-1.jpg',
     features: ['Fire Safety Compliant', 'Commercial Standard Track', 'Large Span Engineering', 'Low Maintenance'],
   },
 
@@ -245,7 +245,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Pulley-operated stainless steel ceiling cloth drying racks for laundry & balcony space optimization.',
     fullDescription: 'Maximize your laundry space with smooth pulley-operated ceiling cloth drying racks. Made from rust-proof stainless steel pipes, individual rods lower independently to make hanging clothes effortless.',
     icon: 'Shirt',
-    image: '/images/services/ceiling-cloth-hangers.jpg',
+    image: '/images/main-images/Cloth-Hangera-1.jpg',
     features: ['Independent Rod Movement', 'Smooth Nylon Pulley System', 'SS 304 Rust-Proof Pipes', 'Up to 30kg Capacity'],
   },
   {

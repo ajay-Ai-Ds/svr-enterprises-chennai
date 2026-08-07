@@ -42,7 +42,7 @@ const projects: Project[] = [
     "categoryLabel": "Safety Nets",
     "location": "T. Nagar, Chennai",
     "description": "Sealed off utility shaft and kitchen balcony to prevent bird nesting and hygiene issues.",
-    "image": "/images/services/pigeon-safety-nets.jpg"
+    "image": "/images/main-images/pigeon-safety-nets-ai.png"
   },
   {
     "id": "p4",
@@ -51,7 +51,7 @@ const projects: Project[] = [
     "categoryLabel": "Cloth Hangers",
     "location": "Nungambakkam, Chennai",
     "description": "6-pipe 304 SS pulley-operated cloth drying rack installed in apartment laundry balcony.",
-    "image": "/images/services/ceiling-cloth-hangers.jpg"
+    "image": "/images/main-images/Cloth-Hangera-1.jpg"
   },
   {
     "id": "p5",
@@ -78,7 +78,7 @@ const projects: Project[] = [
     "categoryLabel": "Invisible Grills",
     "location": "OMR, Chennai",
     "description": "Installed fire-escape accessible SS invisible grills for a 5-story office building facade.",
-    "image": "/images/main-images/Balcony-Grills-3.jpg"
+    "image": "/images/main-images/client-grill-1.jpg"
   },
   {
     "id": "p8",
@@ -87,7 +87,7 @@ const projects: Project[] = [
     "categoryLabel": "Safety Nets",
     "location": "Adyar, Chennai",
     "description": "Small mesh durable pet safety net fitted on high-rise balcony for cat safety.",
-    "image": "/images/services/pet-safety-nets.jpg"
+    "image": "/images/main-images/pet.jpg"
   },
   {
     "id": "p9",
@@ -96,7 +96,7 @@ const projects: Project[] = [
     "categoryLabel": "Safety Nets",
     "location": "Mylapore, Chennai",
     "description": "Fitted SS 304 bird spikes on window ledges and AC outdoor compressor units.",
-    "image": "/images/services/anti-bird-spikes.jpg"
+    "image": "/images/main-images/Bird-Spikes.jpg"
   },
   {
     "id": "p10",
