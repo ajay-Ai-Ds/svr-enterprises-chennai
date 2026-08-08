@@ -28,14 +28,14 @@ const slides: Slide[] = [
     headline: 'Premium Safety Nets for Every Home',
     subheading: 'Protecting your family with expert installation across all of Chennai.',
     tag: '#1 Safety Nets Specialist',
-    bgImage: '/images/main-images/BalconyNet-1.jpg',
+    bgImage: '/images/main-images/balconynet-1.jpg',
   },
   {
     id: 2,
     headline: 'Invisible Grills - Security Without Compromise',
     subheading: "Elegant marine-grade SS 316 protection that doesn't block your view.",
     tag: 'Modern Architectural Safety',
-    bgImage: '/images/main-images/Balcony-Grills.jpg',
+    bgImage: '/images/main-images/balcony-grills.jpg',
   },
   {
     id: 3,
@@ -49,7 +49,7 @@ const slides: Slide[] = [
     headline: 'Complete Home Protection Solutions',
     subheading: 'Balcony Safety Nets | SS Invisible Grills | Ceiling Cloth Hangers',
     tag: 'Full Range Offerings',
-    bgImage: '/images/main-images/Cloth-Hangera-1.jpg',
+    bgImage: '/images/main-images/cloth-hangera-1.jpg',
   },
 ];
 

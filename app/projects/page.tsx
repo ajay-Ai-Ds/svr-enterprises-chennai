@@ -24,7 +24,7 @@ const projects: Project[] = [
     "categoryLabel": "Safety Nets",
     "location": "Choolaimedu, Chennai",
     "description": "Installed 1mm heavy-duty UV stabilized balcony safety net for a 12th-floor apartment balcony.",
-    "image": "/images/main-images/BalconyNet-1.jpg"
+    "image": "/images/main-images/balconynet-1.jpg"
   },
   {
     "id": "p2",
@@ -33,7 +33,7 @@ const projects: Project[] = [
     "categoryLabel": "Invisible Grills",
     "location": "Anna Nagar, Chennai",
     "description": "Custom fitted marine-grade stainless steel invisible grills for luxury villa French windows.",
-    "image": "/images/main-images/Balcony-Grills.jpg"
+    "image": "/images/main-images/balcony-grills.jpg"
   },
   {
     "id": "p3",
@@ -51,7 +51,7 @@ const projects: Project[] = [
     "categoryLabel": "Cloth Hangers",
     "location": "Nungambakkam, Chennai",
     "description": "6-pipe 304 SS pulley-operated cloth drying rack installed in apartment laundry balcony.",
-    "image": "/images/main-images/Cloth-Hangera-1.jpg"
+    "image": "/images/main-images/cloth-hangera-1.jpg"
   },
   {
     "id": "p5",
@@ -60,7 +60,7 @@ const projects: Project[] = [
     "categoryLabel": "Invisible Grills",
     "location": "Velachery, Chennai",
     "description": "2-inch narrow gap invisible grill installation for child safety across all high-floor windows.",
-    "image": "/images/main-images/Children-InvisibleGrills.jpg"
+    "image": "/images/main-images/children-invisiblegrills.jpg"
   },
   {
     "id": "p6",
@@ -69,7 +69,7 @@ const projects: Project[] = [
     "categoryLabel": "Safety Nets",
     "location": "Porur, Chennai",
     "description": "Full vertical duct area sealing using high-tensile HDPE nets for a residential complex.",
-    "image": "/images/main-images/Duct-Area-1.jpg"
+    "image": "/images/main-images/duct-area-1.jpg"
   },
   {
     "id": "p7",
@@ -96,7 +96,7 @@ const projects: Project[] = [
     "categoryLabel": "Safety Nets",
     "location": "Mylapore, Chennai",
     "description": "Fitted SS 304 bird spikes on window ledges and AC outdoor compressor units.",
-    "image": "/images/main-images/Bird-Spikes.jpg"
+    "image": "/images/main-images/bird-spikes.jpg"
   },
   {
     "id": "p10",
@@ -114,7 +114,7 @@ const projects: Project[] = [
     "categoryLabel": "Safety Nets",
     "location": "Kilpauk, Chennai",
     "description": "Vertical staircase center gap safety net installation for duplex home child safety.",
-    "image": "/images/main-images/Staircase-Grills.jpg"
+    "image": "/images/main-images/staircase-grills.jpg"
   },
   {
     "id": "p12",
@@ -132,7 +132,7 @@ const projects: Project[] = [
     "categoryLabel": "Safety Nets",
     "location": "KK Nagar, Chennai",
     "description": "Full vertical building duct shaft bird exclusion netting with anti-corrosion hooks.",
-    "image": "/images/main-images/Duct-Area-2.jpg"
+    "image": "/images/main-images/duct-area-2.jpg"
   },
   {
     "id": "p14",
@@ -141,7 +141,7 @@ const projects: Project[] = [
     "categoryLabel": "Safety Nets",
     "location": "Virugambakkam, Chennai",
     "description": "Heavy gauge multi-sport boundary netting installed for private sports club in Chennai.",
-    "image": "/images/main-images/Sports-Net-2.jpg"
+    "image": "/images/main-images/sports-net-2.jpg"
   },
   {
     "id": "p15",
@@ -150,7 +150,7 @@ const projects: Project[] = [
     "categoryLabel": "Invisible Grills",
     "location": "Kodambakkam, Chennai",
     "description": "Full height sliding window invisible cable fitting providing maximum natural sunlight.",
-    "image": "/images/main-images/Window-Grills-2.jpg"
+    "image": "/images/main-images/window-grills-2.jpg"
   },
   {
     "id": "p16",
