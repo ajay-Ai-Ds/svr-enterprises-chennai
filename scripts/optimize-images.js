@@ -11,7 +11,7 @@ async function processDirectory(dir) {
     } else if (/\.(jpg|jpeg|png|webp)$/i.test(entry.name)) {
       try {
         const stats = fs.statSync(fullPath);
-        if (stats.size > 200000) {
+        if (stats.size > 50000) {
           const inputBuffer = fs.readFileSync(fullPath);
           const pipeline = sharp(inputBuffer).resize({ width: 1600, withoutEnlargement: true });
           

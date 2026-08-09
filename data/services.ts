@@ -85,7 +85,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Effective pigeon and bird control netting for balconies, windows, and utility spaces.',
     fullDescription: 'Prevent pigeons and birds from nesting in your living areas, balconies, and duct spaces. Our Pigeon Safety Nets are transparent, durable, and humane, keeping your home clean, hygienic, and free from bird droppings.',
     icon: 'Feather',
-    image: '/images/main-images/pigeon-safety-nets-ai.png',
+    image: '/images/main-images/pigeon-net.jpg',
     features: ['Transparent Mesh', 'Hygienic & Humane', 'Long-lasting Durability', 'Custom Fitting'],
   },
   {
@@ -97,7 +97,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Professional boundary and enclosure nets for sports fields, courts, and school grounds.',
     fullDescription: 'We install heavy-gauge sports netting solutions for football, tennis, volleyball, and multi-purpose sports courts. Built for high impact resistance, our nets ensure balls stay within court boundaries safely.',
     icon: 'Trophy',
-    image: '/images/main-images/sports-net-1.jpg',
+    image: '/images/main-images/sports-net.jpg',
     features: ['Impact Resistant', 'Heavy Gauge Cord', 'All-Weather Material', 'Professional Mounting'],
   },
   {
@@ -145,7 +145,7 @@ export const services: ServiceItem[] = [
     shortDescription: 'Custom cricket pitch enclosure nets for rooftop, backyard, and academy practice.',
     fullDescription: 'Transform your rooftop, academy, or backyard into a safe cricket pitch. Our Cricket Practice Nets absorb high-velocity ball impacts, ensuring safe batting and bowling sessions in tight urban spaces.',
     icon: 'Activity',
-    image: '/images/main-images/cricket.jpeg',
+    image: '/images/main-images/cricket-practicenet.jpg',
     features: ['High Velocity Impact Absorption', 'Custom Pitch Dimensions', 'UV Stabilized', 'Rooftop Suitable'],
   },
   {

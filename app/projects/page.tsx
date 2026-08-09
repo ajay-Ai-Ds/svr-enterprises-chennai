@@ -42,7 +42,7 @@ const projects: Project[] = [
     "categoryLabel": "Safety Nets",
     "location": "T. Nagar, Chennai",
     "description": "Sealed off utility shaft and kitchen balcony to prevent bird nesting and hygiene issues.",
-    "image": "/images/main-images/pigeon-safety-nets-ai.png"
+    "image": "/images/main-images/pigeon-net.jpg"
   },
   {
     "id": "p4",
@@ -105,7 +105,7 @@ const projects: Project[] = [
     "categoryLabel": "Safety Nets",
     "location": "Mogappair, Chennai",
     "description": "Custom rooftop cricket practice enclosure with UV resistant sports netting.",
-    "image": "/images/main-images/cricket.jpeg"
+    "image": "/images/main-images/cricket-practicenet.jpg"
   },
   {
     "id": "p11",
@@ -141,7 +141,7 @@ const projects: Project[] = [
     "categoryLabel": "Safety Nets",
     "location": "Virugambakkam, Chennai",
     "description": "Heavy gauge multi-sport boundary netting installed for private sports club in Chennai.",
-    "image": "/images/main-images/sports-net-2.jpg"
+    "image": "/images/main-images/sports-net.jpg"
   },
   {
     "id": "p15",
